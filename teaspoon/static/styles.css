@@ -1,14 +1,30 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(167, 166, 166);
+  background-color: rgb(169, 179, 184);
+}
+
+.introduction {
+  margin: 15px;
 }
 
 .portrait-image {
   width: 400px;
-  border-radius: 25px;
-  padding: 15px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
 }
 
 .name-and-title {
-  padding: 0px 135px;
+  margin: 10px 130px;
+}
+
+.introduction-text-box {
+  width : 380px;
+}
+
+.introduction-text-box-legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
